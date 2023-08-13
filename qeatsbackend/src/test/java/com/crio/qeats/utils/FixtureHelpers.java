@@ -1,10 +1,4 @@
 
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
-
 package com.crio.qeats.utils;
 
 import com.google.common.io.Resources;
@@ -13,9 +7,6 @@ import java.net.URL;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 
-/**
- * A set of helper method for fixture files.
- */
 public class FixtureHelpers {
 
   private FixtureHelpers() { /* singleton */ }

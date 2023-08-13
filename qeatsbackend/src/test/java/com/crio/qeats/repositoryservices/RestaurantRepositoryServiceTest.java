@@ -1,10 +1,4 @@
 
-/*
- *
- *  * Copyright (c) Crio.Do 2019. All rights reserved
- *
- */
-
 package com.crio.qeats.repositoryservices;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -41,9 +35,6 @@ import org.springframework.test.annotation.DirtiesContext;
 import org.springframework.test.context.ActiveProfiles;
 import redis.embedded.RedisServer;
 
-// TODO: CRIO_TASK_MODULE_NOSQL
-// Pass all the RestaurantRepositoryService test cases.
-// Make modifications to the tests if necessary.
 @SpringBootTest(classes = {QEatsApplication.class})
 @DirtiesContext
 @ActiveProfiles("test")
@@ -142,11 +133,10 @@ public class RestaurantRepositoryServiceTest {
 
 
   void searchedAttributesIsSubsetOfRetrievedRestaurantAttributes() {
-    // TODO
+    
   }
 
   void searchedAttributesIsCaseInsensitive() {
-    // TODO
   }
 
   private List<RestaurantEntity> listOfRestaurants() throws IOException {
